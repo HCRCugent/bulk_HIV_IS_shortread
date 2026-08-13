@@ -1,0 +1,18 @@
+<PE1barcodes> # List OK
+SA501
+<PE2barcodes> # One only
+D702
+<LTR>
+3LTR
+<3LTR_primer>
+CCTTTTAGTCAGTGTGGAAAAT
+<3LTR_junction>
+TCTCTAGCA
+<5LTR_primer>
+ 
+<5LTR_junction>
+ 
+<file_name_template>
+ACS2_R1_001.fastq.gz
+<pairs> # The number of pairs of fastq.gz files: 001, 002, etc. 1 per Miseq run but more for HiSeq
+1

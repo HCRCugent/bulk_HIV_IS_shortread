@@ -1,0 +1,28 @@
+<PE1barcodes> # Parallel list with PE2barcodes (eg first position PE1 and PE2 form expected pairs)
+SA501
+<PE2barcodes> # Parallel list with PE1barcodes (eg first position PE1 and PE2 form expected pairs)
+D702
+<PE1barcodes_other> # other barcodes used in experiment to detect index hopping # Parallel list with PE2barcodes_other (eg first position PE1 and PE2 form expected pairs)
+SB501
+SD711
+SB706
+SA504
+<PE2barcodes_other> # other barcodes used in experiment to detect index hopping # Parallel list with PE1barcodes (eg first position PE1 and PE2 form expected pairs)
+D701
+D704
+D703
+D705
+<PE2barcode_present> # TRUE = use PE2 inline barcode for sample sorting (UMI shifts to bases 8-17). FALSE/absent = legacy behavior (UMI = bases 0-9).
+TRUE
+<LTR>
+3LTR
+<3LTR_primer>
+CCTTTTAGTCAGTGTGGAAAAT
+<3LTR_junction>
+TCTCTAGCA
+<5LTR_primer>
+<5LTR_junction>
+<file_name_template>
+ACS2_R1.fastq.gz
+<pairs> # The number of pairs of fastq.gz files: 001, 002, etc. 1 per Miseq run but more for HiSeq
+1
